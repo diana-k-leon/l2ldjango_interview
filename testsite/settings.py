@@ -26,8 +26,8 @@ SECRET_KEY = '8d^qo$f_n27u%$-8$nh8s8kx+cxz_)1nxhlthc(&@v^guy)z8h'
 DEBUG = True
 
 from socket import gethostname, gethostbyname 
-ALLOWED_HOSTS = [gethostname(), gethostbyname(gethostname()), 'localhost']
-
+#ALLOWED_HOSTS = [gethostname(), gethostbyname(gethostname()), 'localhost']
+ALLOWED_HOSTS = [gethostname(), 'localhost','127.0.0.1']
 
 # Application definition
 
